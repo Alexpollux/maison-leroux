@@ -1,14 +1,14 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] },
+    transition: { delay: i * 0.2, duration: 0.8, ease: 'easeOut' },
   }),
 }
 
@@ -28,7 +28,7 @@ export default function Hero() {
       <motion.div
         initial={{ scaleX: 0 }}
         animate={{ scaleX: 1 }}
-        transition={{ delay: 1.2, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ delay: 1.2, duration: 1.2, ease: 'easeOut' }}
         className="absolute top-1/2 left-12 right-12 h-px bg-leroux-gold/20 origin-left"
       />
 
