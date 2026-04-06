@@ -50,7 +50,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Maison Leroux. Tous droits réservés.
           </p>
           <a
-            href="https://meme-dev.com"
+            href="https://www.meme-dev.com"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-xs text-leroux-ivory/20 hover:text-leroux-gold/50 transition-colors"
