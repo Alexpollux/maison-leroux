@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 
 const stats = [
-  { value: '37+', label: "Années d'expérience" },
+  { value: '39+', label: "Années d'expérience" },
   { value: '1 200', label: 'Pièces créées' },
   { value: '100%', label: 'Sur-mesure' },
 ]
