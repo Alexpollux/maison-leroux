@@ -49,10 +49,14 @@ export default function Footer() {
           <p className="font-sans text-xs text-leroux-ivory/30">
             © {new Date().getFullYear()} Maison Leroux. Tous droits réservés.
           </p>
-          <p className="font-sans text-xs text-leroux-ivory/20">
-            Site réalisé par{' '}
-            <span className="text-leroux-gold/50">votre-nom.dev</span>
-          </p>
+          <a
+            href="https://meme-dev.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans text-xs text-leroux-ivory/20 hover:text-leroux-gold/50 transition-colors"
+          >
+            Site réalisé par meme-dev.com
+          </a>
         </div>
       </div>
     </footer>
